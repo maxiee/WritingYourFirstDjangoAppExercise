@@ -1,5 +1,5 @@
 from django.contrib import admin
-from maxieesite.models import Poll, Choice
+from polls.models import Poll, Choice
 
 #admin.site.register(Poll)
 class ChoiceInline(admin.TabularInline):
