@@ -9,3 +9,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^hello/$','helloworld.views.hello'),
 )
+#^: require that the pattern matches the start of the string.
+#$: require that the pattern matches the end of the string.
